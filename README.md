@@ -54,6 +54,7 @@ It specifies the contents and name of a new file placed in the browser's downloa
 
 #### text url - [live demo](http://pagedemos.com/pz6hkyqutjtw/output/)
     download("/robots.txt");
+    download("/download?file=somefile", "downurl:realfilename.txt")
 
 
 #### text UInt8 Array -  [live demo](http://pagedemos.com/zuyk46wbkktq/output/)
