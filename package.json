@@ -1,7 +1,8 @@
 {
   "name": "mdownloadjs",
   "main": "download.js",
-  "version": "1.4.8",
+  "types": "download.d.ts",
+  "version": "1.4.10",
   "description": "file downloading using client-side javascript",
   "keywords": [
     "files",
@@ -25,7 +26,8 @@
   },
   "files": [
     "download.js",
-    "download.min.js"
+    "download.min.js",
+    "download.d.ts"
   ],
   "npmName": "mdownloadjs",
   "npmFileMap": [

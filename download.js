@@ -113,8 +113,8 @@
 				anchor.style.display = "none";
  				anchor.addEventListener('click', function(e) {
  					e.stopPropagation();
- 					this.removeEventListener('click', arguments.callee);
- 				});
+ 					// this.removeEventListener('click', arguments.callee);
+ 				}, { once: true });
 				document.body.appendChild(anchor);
 				setTimeout(function() {
 					anchor.click();
